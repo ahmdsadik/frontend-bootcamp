@@ -1,0 +1,91 @@
+/* Start Global */
+.section-padding {
+  padding: 50px 0;
+}
+*::selection {
+  color: black;
+  background-color: blueviolet;
+}
+/* End Global */
+/* Start Navbar */
+nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+nav .nav-link:hover,
+nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.9);
+}
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
+nav .navbar-toggler {
+  background-color: white;
+}
+/* End Navbar */
+/* Start Modal */
+.modal-dialog .btn-close:focus {
+  box-shadow: none;
+}
+/* End Modal */
+/* Start sign-up */
+.input-group .form-control {
+  box-shadow: none;
+}
+/* End sign-up */
+/* Start Learn React */
+.read-more {
+  text-decoration: none;
+}
+/* End Learn React */
+/* Start Accordion */
+.accordion-button:focus {
+  box-shadow: none;
+}
+/* End Accordion */
+/* Start Our Instructors */
+
+.constructors .card {
+  border: 0;
+}
+.constructors .card img {
+  width: 128px;
+  height: 128px;
+}
+.constructors .links a {
+  color: black;
+  transition: color 0.4s;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -ms-transition: color 0.4s;
+  -o-transition: color 0.4s;
+}
+.constructors .links a:hover,
+.constructors .links a:focus {
+  color: blue;
+}
+/* End Our Instructors */
+/* Footetr */
+.up-icon {
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+  .up-icon {
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .up-icon svg {
+    font-size: 50px;
+  }
+}
+/* Footetr */
